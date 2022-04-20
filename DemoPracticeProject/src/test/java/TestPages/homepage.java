@@ -29,7 +29,7 @@ public class homepage {
 		
 	//fluentwait
 		
-		Wait wait=new FluentWait(driver).withTimeout(Duration.ofSeconds(10)).pollingEvery(Duration.ofSeconds(2)).ignoring(  wait.until(ExpectedConditions.visibilityOf(logut)));
+		logut.isDisplayed();
 	}
 	
 
