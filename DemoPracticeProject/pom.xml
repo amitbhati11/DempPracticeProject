@@ -39,6 +39,32 @@
     <scope>test</scope>
 </dependency>
   
+   </dependencies>
+   
+   <build>
   
-  </dependencies>
+  
+  <plugins>
+   
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-surefire-plugin</artifactId>
+        <version>3.0.0-M6</version>
+        <configuration>
+         <!-- <includes>
+        <include>Alertsdemo</include>
+        </includes> -->  
+          <!-- <suiteXmlFiles>
+            <suiteXmlFile>${testngFile}</suiteXmlFile>
+          </suiteXmlFiles> -->
+             <suiteXmlFiles>
+            <suiteXmlFile>testngdpl.xml</suiteXmlFile>
+          </suiteXmlFiles> 
+        </configuration>
+      </plugin>
+   
+</plugins>
+ 
+  
+  </build>
 </project>

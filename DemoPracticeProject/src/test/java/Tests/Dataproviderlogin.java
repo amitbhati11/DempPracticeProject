@@ -62,11 +62,11 @@ public class Dataproviderlogin {
 		lgp=new loginpage(driver);
 		lgp.us_name(username);
 		lgp.pasw(password);
-		Thread.sleep(3000);
+		
 		lgp.logbtn();
 		hpg=new homepage(driver);
 		hpg.logoutbtn();
-		Thread.sleep(2000);
+		
 		
 		System.out.println(username+" | "+password+" | "+id);
 		
