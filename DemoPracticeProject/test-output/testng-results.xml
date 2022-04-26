@@ -2,24 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="35633" started-at="2022-04-23T08:52:06 IST" finished-at="2022-04-23T08:52:41 IST">
+  <suite name="Default suite" duration-ms="3398" started-at="2022-04-26T09:24:25 IST" finished-at="2022-04-26T09:24:28 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="35633" started-at="2022-04-23T08:52:06 IST" finished-at="2022-04-23T08:52:41 IST">
-      <class name="FindElementsngetlinkcount.Getlinkcountandtext">
-        <test-method status="PASS" signature="setup()[pri:0, instance:FindElementsngetlinkcount.Getlinkcountandtext@186f9d5]" name="setup" is-config="true" duration-ms="6154" started-at="2022-04-23T08:52:06 IST" finished-at="2022-04-23T08:52:12 IST">
+    <test name="Default test" duration-ms="3398" started-at="2022-04-26T09:24:25 IST" finished-at="2022-04-26T09:24:28 IST">
+      <class name="Restassured.putpatchndelete">
+        <test-method status="PASS" signature="deletemethod()[pri:0, instance:Restassured.putpatchndelete@4921a5]" name="deletemethod" duration-ms="3335" started-at="2022-04-26T09:24:25 IST" finished-at="2022-04-26T09:24:28 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="test()[pri:0, instance:FindElementsngetlinkcount.Getlinkcountandtext@186f9d5]" name="test" duration-ms="27330" started-at="2022-04-23T08:52:12 IST" finished-at="2022-04-23T08:52:39 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:FindElementsngetlinkcount.Getlinkcountandtext@186f9d5]" name="teardown" is-config="true" duration-ms="2099" started-at="2022-04-23T08:52:39 IST" finished-at="2022-04-23T08:52:41 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- FindElementsngetlinkcount.Getlinkcountandtext -->
+        </test-method> <!-- deletemethod -->
+      </class> <!-- Restassured.putpatchndelete -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
