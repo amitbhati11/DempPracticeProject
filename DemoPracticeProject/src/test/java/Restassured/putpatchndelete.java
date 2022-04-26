@@ -18,7 +18,7 @@ public class putpatchndelete {
 		};
 	}
 	
-	//@Test(dataProvider="putdata")
+	@Test(dataProvider="putdata")
 	
 	public void putmethod(String name,String job) {
 		
@@ -44,7 +44,7 @@ public class putpatchndelete {
 		};
 	}
 	
-	//@Test(dataProvider="patchdata")
+	@Test(dataProvider="patchdata")
 	
 	public void patchmethod(String name,String job) {
 		

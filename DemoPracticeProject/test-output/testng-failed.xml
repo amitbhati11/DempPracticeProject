@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Tests.Onlytestingtests">
+      <class name="Restassured.putpatchndeletelocal">
         <methods>
-          <include name="teardown"/>
-          <include name="testexecution"/>
-          <include name="setup"/>
+          <include name="deletemethod"/>
+          <include name="testpatchmethod" invocation-numbers="0"/>
+          <include name="testputmethod" invocation-numbers="0 1"/>
         </methods>
-      </class> <!-- Tests.Onlytestingtests -->
+      </class> <!-- Restassured.putpatchndeletelocal -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

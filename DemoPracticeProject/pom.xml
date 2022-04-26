@@ -72,7 +72,7 @@
             <suiteXmlFile>${testngFile}</suiteXmlFile>
           </suiteXmlFiles> -->
              <suiteXmlFiles>
-            <suiteXmlFile>testngdpl.xml</suiteXmlFile>
+            <suiteXmlFile>testngppdl.xml</suiteXmlFile>
           </suiteXmlFiles> 
         </configuration>
       </plugin>

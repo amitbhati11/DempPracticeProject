@@ -22,7 +22,7 @@ public class Getnpost {
 		
 	}
 	
-	//@Test(dataProvider="testpostdata")
+	@Test(dataProvider="testpostdata")
 	
 	public void postmethod(String name,String job) {
 		baseURI="https://reqres.in";
